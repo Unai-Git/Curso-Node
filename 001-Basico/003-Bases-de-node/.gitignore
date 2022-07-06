@@ -1,0 +1,5 @@
+#Ignorar archivos de texto
+/salida/*.txt
+
+#Ignorar node_modules
+/node_modules
