@@ -16,6 +16,12 @@ nodemon nombre_fichero.js
 npm run nombre
 ```
 
+> Reconstruir los módulos de node:
+
+```shell
+npm install
+```
+
 ##Paquetes y Dependencias
 
 > **Especificar version**
@@ -45,11 +51,23 @@ Inicializar package.json:
 npm init
 
 Valores por defecto
-npm init -Y
+npm init -y
 ```
 
 > **Yargs:** Ayuda a crear herramientas de línea de comandos interactivas analizando argumentos y generando una interfaz de usuario elegante
 
 ```shell
 npm i yargs
+```
+
+> **Inquirer:** Colección de interfaces de usuario de línea de comando interactivas comunes.
+
+```shell
+npm install inquirer
+```
+
+> **uuid:** Crear uuid aleatorios.
+
+```shell
+npm install uuid
 ```
