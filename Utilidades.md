@@ -71,3 +71,22 @@ npm install inquirer
 ```shell
 npm install uuid
 ```
+
+> **axios:** Cliente HTTP basado en promesas para el navegador y node.js.
+
+```shell
+npm install axios
+```
+
+> **fetch:** Obtener contenido de URL. Admite contenido comprimido con gzip para una descarga más rápida, redireccionamientos (con manejo automático de cookies, por lo que no hay bucles de redireccionamiento eternos), transmisión y canalización, etc
+
+```shell
+npm install fetch
+```
+
+> **dotenv:** Dotenv es un módulo de dependencia cero que carga variables de entorno desde un archivo .env en process.env
+
+```shell
+(Recomendado --save)
+npm install dotenv --save
+```
