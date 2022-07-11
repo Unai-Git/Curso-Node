@@ -90,3 +90,21 @@ npm install fetch
 (Recomendado --save)
 npm install dotenv --save
 ```
+
+> **express:**
+
+- Escritura de manejadores de peticiones con diferentes verbos HTTP en diferentes caminos URL (rutas).
+- Integración con motores de renderización de "vistas" para generar respuestas mediante la introducción de datos en plantillas.
+- Establecer ajustes de aplicaciones web como qué puerto usar para conectar, y la localización de las plantillas que se utilizan para renderizar la respuesta.
+- Añadir procesamiento de peticiones "middleware" adicional en cualquier punto dentro de la tubería de manejo de la petición.S
+
+```shell
+ npm install express
+```
+
+> **Handlebars:**  lenguajes de plantillas sin lógica que mantienen la vista y el código separados como todos sabemos que deberían estar.
+Un adaptador de motor de vista Express.js para Handlebars.js
+https://github.com/pillarjs/hbs
+```shell
+npm install hbs
+```
