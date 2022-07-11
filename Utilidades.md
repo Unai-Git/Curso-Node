@@ -102,9 +102,43 @@ npm install dotenv --save
  npm install express
 ```
 
-> **Handlebars:**  lenguajes de plantillas sin lógica que mantienen la vista y el código separados como todos sabemos que deberían estar.
-Un adaptador de motor de vista Express.js para Handlebars.js
-https://github.com/pillarjs/hbs
+> **Handlebars:** Lenguajes de plantillas sin lógica que mantienen la vista y el código separados como todos sabemos que deberían estar.
+> Un adaptador de motor de vista Express.js para Handlebars.js
+> https://github.com/pillarjs/hbs
+
 ```shell
 npm install hbs
+```
+
+> **heroku:** Permite a los desarrolladores crear, ejecutar y operar aplicaciones completamente en la nube.
+> Pasos:
+
+- Instalar
+
+```shell
+npm install -g heroku
+```
+
+- Hacer Login
+
+```shell
+heroku login
+```
+
+- En la ruta del directorio del proyecto(Conectar el repositorio local con heroku)
+
+```shell
+heroku git:remote -a nombre-de-la-app-puesto-en-heroku
+```
+
+- Hacer push(En este caso al main)
+
+```shell
+git push heroku main
+```
+
+> **http-server:** Servidor HTTP estático de línea de comando simple y sin configuración.
+
+```shell
+npm i --global http-server
 ```
