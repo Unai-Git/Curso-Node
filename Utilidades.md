@@ -1,5 +1,11 @@
 #Utilidades
 
+>**Importante:** Al usar ECMAScript modules poner la extension del fichero.
+>"type": "module"
+>import {urls} from './helpers.js'
+>Importar de terceros:
+>import express from 'express'
+
 ##Comandos
 
 > Ejecutar archivo:
@@ -141,4 +147,10 @@ git push heroku main
 
 ```shell
 npm i --global http-server
+```
+
+> **cors:** El Intercambio de Recursos de Origen Cruzado (CORS  es un mecanismo que utiliza cabeceras HTTP adicionales para permitir que un user agent(Navegador) obtenga permiso para acceder a recursos seleccionados desde un servidor, en un origen distinto (dominio) al que pertenece.
+
+```shell
+npm install cors
 ```
