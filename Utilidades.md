@@ -154,3 +154,9 @@ npm i --global http-server
 ```shell
 npm install cors
 ```
+
+> **bcryptjs:** Biblioteca para ayudarte a codificar contraseñas
+
+```shell
+npm install bcryptjs
+```
