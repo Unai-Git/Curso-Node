@@ -1,10 +1,10 @@
 #Utilidades
 
->**Importante:** Al usar ECMAScript modules poner la extension del fichero.
->"type": "module"
->import {urls} from './helpers.js'
->Importar de terceros:
->import express from 'express'
+> **Importante:** Al usar ECMAScript modules poner la extension del fichero.
+> "type": "module"
+> import {urls} from './helpers.js'
+> Importar de terceros:
+> import express from 'express'
 
 ##Comandos
 
@@ -149,7 +149,7 @@ git push heroku main
 npm i --global http-server
 ```
 
-> **cors:** El Intercambio de Recursos de Origen Cruzado (CORS  es un mecanismo que utiliza cabeceras HTTP adicionales para permitir que un user agent(Navegador) obtenga permiso para acceder a recursos seleccionados desde un servidor, en un origen distinto (dominio) al que pertenece.
+> **cors:** El Intercambio de Recursos de Origen Cruzado (CORS es un mecanismo que utiliza cabeceras HTTP adicionales para permitir que un user agent(Navegador) obtenga permiso para acceder a recursos seleccionados desde un servidor, en un origen distinto (dominio) al que pertenece.
 
 ```shell
 npm install cors
@@ -160,3 +160,17 @@ npm install cors
 ```shell
 npm install bcryptjs
 ```
+
+##Tokens(JWT)
+
+> **jsonwebtoken:** Generar token json.
+
+```shell
+npm install jsonwebtoken
+```
+
+> Los token se dividen en tres partes:
+> -Header: parte roja. Tiene información sobre la encriptación del token.
+> -Payload: parte rosa-lila. Guarda la información que queremos utilizar. La información no se encripta de forma segura.
+> -Firma: parte azul. Permite la verificación del token.
+> **NO GUARDAR INFORMACIÓN SENSIBLE**
