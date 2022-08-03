@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socket Client</title>
+  </head>
+  <body>
+    <h1>Socket Client</h1>
+    <hr />
+
+    <p>
+      Server Status:
+      <span id="online" >Online</span>
+      <span id="offline">Offline</span>
+    </p>
+    <hr>
+
+    <h2>Mensajes</h2>
+    <input type="text" name="text" id="text">
+    <button id="btn_enviar">Enviar</button>
+
+    <!-- Scripts -->
+    <script src="./socket.io/socket.io.js"></script>
+    <script src="js/socket-client.js"></script>
+  </body>
+</html>

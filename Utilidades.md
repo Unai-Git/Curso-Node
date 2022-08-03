@@ -174,3 +174,9 @@ npm install jsonwebtoken
 > -Payload: parte rosa-lila. Guarda la información que queremos utilizar. La información no se encripta de forma segura.
 > -Firma: parte azul. Permite la verificación del token.
 > **NO GUARDAR INFORMACIÓN SENSIBLE**
+
+> **Socket.IO:** Permite la comunicación bidireccional basada en eventos en tiempo real.
+
+```shell
+npm install socket.io
+```
